@@ -1,0 +1,14 @@
+[package]
+name = "lazy-mt"
+version = "0.1.0"
+authors = [
+  "Jonathan Reem <jonathan.reem@gmail.com>",
+  "Michael Färber <michael.faerber@gedenkt.at>"
+]
+edition = "2018"
+
+description = "Multi-threaded lazy evaluation"
+license = "MIT"
+
+[dependencies]
+lazy-st = { git = "https://github.com/01mf02/lazy-st", rev = "cb357e1" }
